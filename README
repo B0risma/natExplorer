@@ -1,1 +1,4 @@
-natExplorer http://192.168.0.4:1900/ctl/IPCon http://192.168.7.1:2828/upnp/control/wtfzffcuvt/wanipconn-12 http://192.168.0.50:1900/ipc 
+Utility for requesting gateway upnp nat records
+Specify gateway ip control url (sorry autorequest ip control url will be created soon)
+example: 
+  natExplorer http://192.168.0.4:1900/ctl/IPCon http://192.168.7.1:2828/upnp/control/wtfzffcuvt/wanipconn-12 http://192.168.0.50:1900/ipc 
