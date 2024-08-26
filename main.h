@@ -186,7 +186,7 @@ int getNat(const igdAddr& gtw){
     sockaddr_in inAddr{};
     inAddr.sin_family = AF_INET;
     inAddr.sin_port = htons(port);
-    inAddr.sin_addr.s_addr = inet_addr("192.168.7.60");
+    inAddr.sin_addr.s_addr = INADDR_ANY;
     sockaddr_in remoteAddr{AF_INET, htons(stoi(gtw.port)), inet_addr(gtw.ip.c_str())};
     
     auto ret = int(0);
